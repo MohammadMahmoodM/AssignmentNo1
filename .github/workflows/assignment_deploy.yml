@@ -30,6 +30,6 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./ panacloud_assignment1.surge.sh --token ${{secret.ASSIGNMENT1_SECRET}}
+      run: surge ./ panacloud_assignment1.surge.sh --token ${{secrets.ASSIGNMENT1_SECRET}}
        
       
